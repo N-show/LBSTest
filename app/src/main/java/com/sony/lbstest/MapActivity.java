@@ -267,6 +267,7 @@ public class MapActivity extends AppCompatActivity {
             LogUtils.d(TAG, currentPosition.toString());
 
             if (bdLocation.getLocType() == BDLocation.TypeGpsLocation || bdLocation.getLocType() == BDLocation.TypeNetWorkLocation) {
+                LogUtils.d(TAG, errorCode + "");
                 navigateTo(bdLocation);
             }
         }
