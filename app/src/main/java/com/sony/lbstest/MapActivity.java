@@ -246,7 +246,7 @@ public class MapActivity extends AppCompatActivity {
             String coorType = bdLocation.getCoorType();
             //获取经纬度坐标类型，以LocationClientOption中设置过的坐标类型为准
 
-            int errorCode = bdLocation.getLocType();
+            int locationType = bdLocation.getLocType();
             //获取定位类型、定位错误返回码，具体信息可参照类参考中BDLocation类中的说明
 
             currentPosition.append("纬度:" + latitude +
@@ -267,7 +267,7 @@ public class MapActivity extends AppCompatActivity {
             LogUtils.d(TAG, currentPosition.toString());
 
             if (bdLocation.getLocType() == BDLocation.TypeGpsLocation || bdLocation.getLocType() == BDLocation.TypeNetWorkLocation) {
-                LogUtils.d(TAG, errorCode + "");
+                LogUtils.d(TAG, "定位类型是:" + locationType);
                 navigateTo(bdLocation);
             }
         }
