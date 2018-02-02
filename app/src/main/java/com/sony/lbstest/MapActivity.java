@@ -58,7 +58,7 @@ public class MapActivity extends AppCompatActivity {
 //        需要调用setMyLocationEnabled() 开启功能 退出的时候关闭
         baiduMap.setMyLocationEnabled(true);
 
-
+        LogUtils.d(TAG, "新建了bug分支修复bug");
     }
 
 
