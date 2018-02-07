@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@android:drawable/sym_call_incoming"
+            android:title="Call" />
+
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Friends" />
+
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="Mail" />
+
+    </group>
+
+    <item
+        android:checked="true"
+        android:checkable="true"
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

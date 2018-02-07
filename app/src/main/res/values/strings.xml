@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LBSTest</string>
+    <string name="app_name">Fruits</string>
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
