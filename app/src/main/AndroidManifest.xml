@@ -72,6 +72,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.sony.material.FruitActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/FruitActivityTheme" />
+
 
         <!-- BroadcastReceiver -->
 

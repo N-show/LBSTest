@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/tb_send"
-        android:icon="@android:drawable/ic_menu_today"
+        android:id="@+id/tb_add"
+        android:icon="@android:drawable/ic_menu_add"
         android:title="Call"
         app:showAsAction="always" />
 
